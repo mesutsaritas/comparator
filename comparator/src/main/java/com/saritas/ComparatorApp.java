@@ -18,7 +18,7 @@ public class ComparatorApp {
 		Person person1 = Person.builder().setAge(28).setFirstName("Mesut Sarıtaş").build();
 		Person person2 = Person.builder().setAge(40).setFirstName("Mikhael").build();
 
-		List<Person> persons = new ArrayList<Person>();
+		List<Person> persons = new ArrayList<>();
 		persons.add(person);
 		persons.add(person1);
 		persons.add(person2);
