@@ -18,7 +18,7 @@ public class Person {
 	 * @param age
 	 * @param firstName
 	 */
-	public Person(Integer age, String firstName) {
+	private Person(Integer age, String firstName) {
 		this.age = age;
 		this.firstName = firstName;
 	}
