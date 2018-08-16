@@ -1,6 +1,6 @@
 package com.saritas.comparator;
 
-import com.saritas.CompareApp;
+import com.saritas.ComparatorApp;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -21,8 +21,8 @@ public class AppTest extends TestCase {
 	}
 
 	public void testApp() {
-		CompareApp app = new CompareApp();
-		app.comparePerson();
+		ComparatorApp app = new ComparatorApp();
+		app.sortPerson();
 	}
 
 }

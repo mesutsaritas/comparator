@@ -11,9 +11,9 @@ import com.saritas.model.Person;
  * @author msaritas
  *
  */
-public class CompareApp {
+public class ComparatorApp {
 
-	public void comparePerson() {
+	public void sortPerson() {
 		Person person = Person.builder().setAge(20).setFirstName("Mert Karayel").build();
 		Person person1 = Person.builder().setAge(28).setFirstName("Mesut Sarıtaş").build();
 		Person person2 = Person.builder().setAge(40).setFirstName("Mikhael").build();
